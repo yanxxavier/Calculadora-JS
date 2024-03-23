@@ -1,0 +1,55 @@
+* {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    margin: 0;
+    overflow: hidden;
+ }
+ 
+ .container {
+     width: 100vw;
+     height: 100vh;
+     background-color: #CCC;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .calcArea {
+     width: 400px;
+     height: auto;
+     background-color: #DDD;
+     border-radius: 15px;
+     padding: 25px;
+     
+ }
+ #resultArea {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 150px;
+     background-color: #FF4500;
+     text-align: center;
+     font-size: 25px;
+     border-radius: 10px;
+     margin-bottom: 15px;
+ }
+ button {
+     width: 75px;
+     height: 50px;
+     background-color: #A9A9A9;
+     border: 0;
+     border-radius: 10px;
+     margin: 10px;
+     color: #F0F8FF;
+ }
+ .calcArea :nth-child(20) {
+     background-color: #FF4500;
+     width: 175px;
+ 
+ }
+ .calcArea button:hover {
+     background-color: #F0F8FF;
+     color: #000;
+ }
